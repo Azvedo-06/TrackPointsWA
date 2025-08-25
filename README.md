@@ -8,7 +8,7 @@ Um projeto para calcular a **pontuação oficial da World Athletics** para prova
 - Comparar a pontuação obtida com outras provas, mostrando qual marca seria necessária para alcançar o mesmo score.  
 - Suporte inicial para as provas de pista (corrida e barreiras) e campo (saltos e lançamentos), podendo ser expandido facilmente.
 
-## Provas Suportadas (exemplos)
+## Provas Suportadas
 
 - 100m  
 - 400m  
