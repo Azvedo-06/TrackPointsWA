@@ -2,15 +2,15 @@ import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
 export default function Home({ navigation }) {
-  const provas = ["Velocidade", "Barreiras", "Saltos Horizontais"];
+  const provasCategoria = ["Velocidade", "Barreiras", "Saltos Horizontais", "Arremesso e Lançamentos"];
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Selecione a Categoria de Prova</Text>
-      {provas.map((provas, index) => (
+      {provasCategoria.map((provas, index) => (
         <TouchableOpacity
           key={index}
           style={styles.button}
-          onPress={() => navigation.navigate("Provas", { provas })}
+          onPress={() => navigation.navigate("Provas", { title: provas })}
         >
           <Text style={styles.buttonText}>{provas}</Text>
         </TouchableOpacity>
