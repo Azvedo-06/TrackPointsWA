@@ -14,7 +14,8 @@ Um projeto para calcular a **pontuação oficial da World Athletics** para prova
 - 400m  
 - 400m com barreiras  
 - Salto em distância  
-- Arremesso de peso  
+- Salto Triplo
+- Arremesso de peso
 
 > Nota: mais provas podem ser adicionadas conforme a necessidade.
 
